@@ -336,9 +336,9 @@ Version: IP version (4 bits).
       
    unreliable data transfer (no error checking or retransmission).
        
-     - Faster but does not guarantee delivery or order of packets.
+      Faster but does not guarantee delivery or order of packets.
        
-     - Suitable for applications like **video streaming** and **online gaming**.
+      Suitable for applications like **video streaming** and **online gaming**.
 
 ## Port Numbers:
  *Well-known ports (0-1023)*: Reserved for common services (e.g., HTTP uses port 80, HTTPS uses port 443, FTP uses port 21).
@@ -364,20 +364,20 @@ Version: IP version (4 bits).
 *Three-Way Handshake*: 
      SYN (synchronize) is sent by the client.
        
-      SYN-ACK is sent by the server.
+     SYN-ACK is sent by the server.
        
-     - ACK is sent by the client to establish a connection.
+     ACK is sent by the client to establish a connection.
 
 ## Connection Termination in TCP:
-   - **Four-Way Handshake**:
+*Four-Way Handshake*:
      
-     - FIN: Sent by the sender to terminate the connection.
+     FIN: Sent by the sender to terminate the connection.
        
-     - ACK: Acknowledgment from the receiver.
+     ACK: Acknowledgment from the receiver.
        
-     - FIN: Sent by the receiver to close the other half of the connection.
+     FIN: Sent by the receiver to close the other half of the connection.
        
-     - ACK: Final acknowledgment to complete termination.
+     ACK: Final acknowledgment to complete termination.
 
 ## TCP Segment Header:
 
