@@ -1,4 +1,4 @@
-Computer-Networks Last Minute Notes
+#Computer-Networks Last Minute Notes
 
 The OSI (Open Systems Interconnection) reference model is a conceptual framework that standardizes the functions of a communication system into seven distinct layers. Each layer in the OSI model is responsible for specific tasks and interacts with the layers directly above and below it. The model helps in understanding and designing communication protocols in network architecture.
 
