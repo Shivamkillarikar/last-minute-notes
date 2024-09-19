@@ -307,15 +307,15 @@ Version: IP version (4 bits).
 ### Transport Layer
 
 ## Primary Functions of the Transport Layer:
-    *Segmentation and Reassembly*: Breaks large messages into smaller segments for transmission and reassembles them at the destination.
+ *Segmentation and Reassembly*: Breaks large messages into smaller segments for transmission and reassembles them at the destination.
     
-    *End-to-End Communication*: Ensures that data is delivered from source to destination across the network.
+ *End-to-End Communication*: Ensures that data is delivered from source to destination across the network.
     
-    *Error Detection and Correction*: Uses checksums to ensure data integrity.
+ *Error Detection and Correction*: Uses checksums to ensure data integrity.
     
-    *Flow Control*: Ensures that the sender does not overwhelm the receiver with too much data at once (e.g., sliding window protocol).
+ *Flow Control*: Ensures that the sender does not overwhelm the receiver with too much data at once (e.g., sliding window protocol).
     
-    *Multiplexing/Demultiplexing*: Manages multiple communication sessions by using port numbers to differentiate between them.
+ *Multiplexing/Demultiplexing*: Manages multiple communication sessions by using port numbers to differentiate between them.
     
 ## Protocols:
    ## TCP (Transmission Control Protocol): 
@@ -324,17 +324,17 @@ Version: IP version (4 bits).
      
    *reliable* data transfer.
      
- *error checking*, *acknowledgments*, and *retransmission*.
+   *error checking*, *acknowledgments*, and *retransmission*.
      
-*sequence numbers* for ordered data transfer.
+   *sequence numbers* for ordered data transfer.
      
-*Three-way handshake*: Establishes a connection using SYN, SYN-ACK, and ACK messages.
+   *Three-way handshake*: Establishes a connection using SYN, SYN-ACK, and ACK messages.
      
   ## UDP (User Datagram Protocol):
 
-   *Connectionless* protocol.
+   Connectionless protocol.
       
-   *unreliable* data transfer (no error checking or retransmission).
+   unreliable data transfer (no error checking or retransmission).
        
      - Faster but does not guarantee delivery or order of packets.
        
