@@ -106,6 +106,7 @@ Bluetooth: Short-range wireless communication.
 ### DATA LINK LAYER
 
 ## Function of the Data Link Layer
+
 The Data Link Layer provides reliable node-to-node communication and error detection over the physical layer. It also manages how data is packaged into frames and how it is transmitted between network devices.
 
 It transforms the raw transmission facility provided by the physical layer into a reliable link.
@@ -129,6 +130,7 @@ Cyclic Redundancy Check (CRC): A more robust method for detecting errors by gene
 Hamming Code: Error correction code that can detect and correct single-bit errors.
 
 ## Media Access Control (MAC) Address:
+
 MAC Addresses are unique 48-bits hardware number of a computer, which is embedded into network card (known as Network Interface Card) during the time of manufacturing. MAC is a type og physical address which is used to communicate or transfer the data from one computer to another computer
 
 ## Access Control Mechanisms
@@ -143,6 +145,7 @@ Used in wireless networks (Wi-Fi). Devices check for a free channel before sendi
 Token Passing: Devices pass a "token" around the network. A device can only send data when it has the token, ensuring there are no collisions (used in Token Ring networks).
 
 ## Data Link Layer Protocols
+
 Ethernet: A widely used protocol in wired LANs (Local Area Networks) defined by IEEE 802.3.
 Fast Ethernet (100 Mbps), Gigabit Ethernet (1 Gbps), 10 Gigabit Ethernet (10 Gbps).
 
@@ -159,13 +162,15 @@ Sliding Window Protocol: The sender can send multiple frames before receiving an
 
 
 ## Network Devices at the Data Link Layer
+
 Switches: Operate at the data link layer and use MAC addresses to forward data to the correct destination. They help reduce network collisions by dividing a network into segments.
 
 Bridges: Used to connect two network segments, filtering and forwarding data based on MAC addresses.
 
 NIC (Network Interface Card): Operates at both the physical and data link layers, handling communication between the device and the network.
 
-11. Types of Networks Based on Data Link Layer
+## Types of Networks Based on Data Link Layer
+
 LAN (Local Area Network): A network that spans a small geographic area, typically using Ethernet or Wi-Fi.
 
 WAN (Wide Area Network): A network that spans a larger geographic area, connecting multiple LANs, often using protocols like HDLC or PPP.
@@ -313,50 +318,53 @@ Version: IP version (4 bits).
     *Multiplexing/Demultiplexing*: Manages multiple communication sessions by using port numbers to differentiate between them.
     
 ## Protocols:
-    ## TCP (Transmission Control Protocol): 
+   ## TCP (Transmission Control Protocol): 
     
-     - **Connection-oriented** protocol.
+   *Connection-oriented* protocol.
      
-     - Ensures **reliable** data transfer.
+   *reliable* data transfer.
      
-     - Implements **error checking**, **acknowledgments**, and **retransmission**.
+ *error checking*, *acknowledgments*, and *retransmission*.
      
-     - Uses **sequence numbers** for ordered data transfer.
+*sequence numbers* for ordered data transfer.
      
-     - **Three-way handshake**: Establishes a connection using SYN, SYN-ACK, and ACK messages.
+*Three-way handshake*: Establishes a connection using SYN, SYN-ACK, and ACK messages.
      
-   - **UDP (User Datagram Protocol)**:
-   - 
-     - **Connectionless** protocol.
+  ## UDP (User Datagram Protocol):
+
+   *Connectionless* protocol.
       
-     - Provides **unreliable** data transfer (no error checking or retransmission).
+   *unreliable* data transfer (no error checking or retransmission).
        
      - Faster but does not guarantee delivery or order of packets.
        
      - Suitable for applications like **video streaming** and **online gaming**.
 
 ## Port Numbers:
-   - **Well-known ports (0-1023)**: Reserved for common services (e.g., HTTP uses port 80, HTTPS uses port 443, FTP uses port 21).
+ *Well-known ports (0-1023)*: Reserved for common services (e.g., HTTP uses port 80, HTTPS uses port 443, FTP uses port 21).
      
-   - **Registered ports (1024-49151)**: Assigned by IANA for user processes or applications.
+*Registered ports (1024-49151)*: Assigned by IANA for user processes or applications.
      
-   - **Dynamic/Private ports (49152-65535)**: Used for client-side communication.
+*Dynamic/Private ports (49152-65535)*: Used for client-side communication.
 
 ## Flow Control Mechanisms:
-   - **Stop-and-Wait**: The sender sends one packet and waits for an acknowledgment before sending the next.
+
+*Stop-and-Wait*: The sender sends one packet and waits for an acknowledgment before sending the next.
      
-   - **Sliding Window**: The sender can send multiple packets without waiting for acknowledgment, improving efficiency.
+*Sliding Window*: The sender can send multiple packets without waiting for acknowledgment, improving efficiency.
 
 ## Error Detection and Correction:
-   - **Checksums**: Used to detect errors in transmitted data.
+
+*Checksums*: Used to detect errors in transmitted data.
      
-   - **TCP Retransmission**: If a segment is lost or corrupted, it will be retransmitted.
+*TCP Retransmission*: If a segment is lost or corrupted, it will be retransmitted.
 
 ## Connection Establishment in TCP:
-   - **Three-Way Handshake**: 
-     - SYN (synchronize) is sent by the client.
+
+*Three-Way Handshake*: 
+     SYN (synchronize) is sent by the client.
        
-     - SYN-ACK is sent by the server.
+      SYN-ACK is sent by the server.
        
      - ACK is sent by the client to establish a connection.
 
