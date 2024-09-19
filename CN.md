@@ -4,18 +4,13 @@ The **OSI (Open Systems Interconnection) reference model** is a conceptual frame
 
 ### Layer 1: Physical Layer
    - Function: Manages the transmission of raw data bits over a physical medium (e.g., cables, radio waves).
-     
    - Examples: Ethernet, USB, Bluetooth, and fiber optics.
-     
    - Role: Defines hardware connections, signaling methods, voltage levels, and data rates.
 
 ### Layer 2: Data Link Layer
    - Function: Provides node-to-node data transfer and error correction in frames. It ensures reliable transmission over the physical layer.
-     
    - Sub-layers: Logical Link Control (LLC) and Media Access Control (MAC).
-
    - Examples: Ethernet (MAC addresses), Wi-Fi (802.11).
-     
    - Role: Error detection, frame synchronization, and flow control.
 
 ### Layer 3: Network Layer
@@ -47,11 +42,14 @@ The **OSI (Open Systems Interconnection) reference model** is a conceptual frame
 
 ## Function of the Physical Layer
 The Physical Layer is responsible for the transmission of raw bits (0s and 1s) over a physical medium between devices.
+
 It defines the hardware specifications like cables, connectors, and network interfaces.
 
 ## Transmission Modes
 Simplex: Communication in one direction only (e.g., TV broadcast).
+
 Half-Duplex: Communication in both directions, but only one direction at a time (e.g., walkie-talkies).
+
 Full-Duplex: Simultaneous two-way communication (e.g., telephone).
 
 ## Transmission Mediums
