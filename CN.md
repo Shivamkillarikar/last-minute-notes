@@ -338,7 +338,7 @@ Version: IP version (4 bits).
        
       Faster but does not guarantee delivery or order of packets.
        
-      Suitable for applications like **video streaming** and **online gaming**.
+      Suitable for applications like video streaming and online gaming.
 
 ## Port Numbers:
  *Well-known ports (0-1023)*: Reserved for common services (e.g., HTTP uses port 80, HTTPS uses port 443, FTP uses port 21).
@@ -362,6 +362,7 @@ Version: IP version (4 bits).
 ## Connection Establishment in TCP:
 
 *Three-Way Handshake*: 
+
      SYN (synchronize) is sent by the client.
        
      SYN-ACK is sent by the server.
