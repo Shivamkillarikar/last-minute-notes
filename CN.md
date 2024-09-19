@@ -1,10 +1,8 @@
-#Computer-Networks Last Minute Notes
+The **OSI (Open Systems Interconnection) reference model** is a conceptual framework that standardizes the functions of a communication system into seven distinct layers. Each layer in the OSI model is responsible for specific tasks and interacts with the layers directly above and below it. The model helps in understanding and designing communication protocols in network architecture.
 
-The OSI (Open Systems Interconnection) reference model is a conceptual framework that standardizes the functions of a communication system into seven distinct layers. Each layer in the OSI model is responsible for specific tasks and interacts with the layers directly above and below it. The model helps in understanding and designing communication protocols in network architecture.
+## The 7 Layers of the OSI Model:
 
- The 7 Layers of the OSI Model:
-
-1. Layer 1: Physical Layer
+### Layer 1: Physical Layer
    - Function: Manages the transmission of raw data bits over a physical medium (e.g., cables, radio waves).
    - Examples: Ethernet, USB, Bluetooth, and fiber optics.
    - Role: Defines hardware connections, signaling methods, voltage levels, and data rates.
